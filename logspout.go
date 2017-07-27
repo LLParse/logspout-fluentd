@@ -37,6 +37,7 @@ func init() {
 	infraStackImages["network"] = append(infraStackImages["network"], "rancher/metadata")
 	infraStackImages["network"] = append(infraStackImages["network"], "rancher/dns")
 	infraStackImages["ipsec"] = append(infraStackImages["ipsec"], "rancher/net")
+	infraStackImages["etcd"] = append(infraStackImages["etcd"], "rancher/etcd")
 }
 
 // NewFluentdAdapter creates a Logspout fluentd adapter instance.
